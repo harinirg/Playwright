@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","28432","Login Test","chromium","2026-06-24","passed","2026-06-24","","loginherokuapp.test.ts","",""
+"","28670","Login Test","firefox","2026-06-24","passed","2026-06-24","","loginherokuapp.test.ts","",""
+"","28866","Login Test","webkit","2026-06-24","passed","2026-06-24","","loginherokuapp.test.ts","",""
