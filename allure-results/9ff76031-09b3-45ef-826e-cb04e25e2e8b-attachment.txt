@@ -1,2 +1,0 @@
-Signup clicked
-Credentials entered

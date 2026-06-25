@@ -1,3 +1,0 @@
-Signup clicked
-Credentials entered
-[Function: url]
