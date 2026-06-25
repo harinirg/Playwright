@@ -1,0 +1,4 @@
+Signup clicked
+Credentials entered
+[Function: url]
+Enter Account Information - Verified

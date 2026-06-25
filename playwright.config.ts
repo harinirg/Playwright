@@ -16,6 +16,7 @@ dotenv.config({ path:`./env/.env.${envName}`});
 
 export default defineConfig({
   testDir: './tests',
+  timeout: 50000,
 
   fullyParallel: true,
 
@@ -32,7 +33,7 @@ export default defineConfig({
   ],
 
   use: {
-    trace: 'on',
+    trace: 'retain-on-failure',
     browserName: 'chromium',
     headless: true,
     video: 'retain-on-failure',
