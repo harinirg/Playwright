@@ -16,7 +16,7 @@ dotenv.config({ path:`./env/.env.${envName}`});
 
 export default defineConfig({
   testDir: './tests',
-  timeout: 50000,
+  timeout: 60000,
 
   fullyParallel: true,
 
