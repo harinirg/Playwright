@@ -1,0 +1,4 @@
+Please enter your Message
+Before entering value:
+After entering value:Hello
+Hello

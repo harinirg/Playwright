@@ -1,0 +1,2 @@
+Alert Type: confirm
+Alert Message: Press a button!

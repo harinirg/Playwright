@@ -31,11 +31,13 @@ export default defineConfig({
     ['html', { open: 'never' }],
     ['allure-playwright']
   ],
+  //testMatch:["tests/alerts..ts"],
 
   use: {
     trace: 'retain-on-failure',
     browserName: 'chromium',
     headless: true,
+    launchOptions:{slowMo:5000,},
     video: 'retain-on-failure',
     screenshot: 'only-on-failure'
   },
