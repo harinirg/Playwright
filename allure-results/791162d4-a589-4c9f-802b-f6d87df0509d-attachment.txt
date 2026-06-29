@@ -1,4 +1,0 @@
-Clicked
-First Value: 20
-Second Value: 10
-Result: 30

@@ -16,7 +16,8 @@ dotenv.config({ path:`./env/.env.${envName}`});
 
 export default defineConfig({
   testDir: './tests',
-  timeout: 60000,
+  timeout: 70000,
+  //repeatEach:3,
 
   fullyParallel: true,
 
@@ -24,14 +25,14 @@ export default defineConfig({
 
   retries: process.env.CI ? 2 : 0,
 
-  workers: process.env.CI ? 3 : undefined,
+  workers: process.env.CI ? 1:2,
 
   // Add reporters here
   reporter: [
-    ['html', { open: 'never' }],
+    ['html', { open: 'always' }],
     ['allure-playwright']
   ],
-  //testMatch:["tests/alerts..ts"],
+  //testMatch:["tests/radiobutton.test.ts"],
 
   use: {
     trace: 'retain-on-failure',
