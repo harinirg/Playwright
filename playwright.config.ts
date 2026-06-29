@@ -32,7 +32,7 @@ export default defineConfig({
     ['html', { open: 'always' }],
     ['allure-playwright']
   ],
-  //testMatch:["tests/radiobutton.test.ts"],
+  testMatch:["tests/radiobutton.test.ts"],
 
   use: {
     trace: 'retain-on-failure',

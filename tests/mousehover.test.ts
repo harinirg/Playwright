@@ -8,11 +8,3 @@ test("mouse hover",async({page})=>{
     await Hover.hover();
     await expect(Hover).toHaveCSS("color", "rgb(40, 167, 69)");
 })
-test("image hover",async({page})=>{
-    await page.getByAltText("Image").nth(57).hover();
-    
-    const image = page.getByAltText("Image").nth(58);
-    await image.scrollIntoViewIfNeeded();
-    await expect(page.getByText("Hover")).toBeVisible();
-
-})

@@ -19,7 +19,7 @@ test("disabled button",async({page})=>{
 })
 test ("Select Gender and Age",async({page})=>{
     await page.getByRole("radio", { name: "Female" }).nth(1).check();
-    await page.getByText("15 - 50").click();
+    await page.getByLabel("15 to 50").check();
     await page.getByRole("button",{name:"Get values"}).click();
     await expect(page.locator(".genderbutton")).toHaveText("Female");
     await expect(page.locator(".groupradiobutton")).toHaveText("15 - 50");
