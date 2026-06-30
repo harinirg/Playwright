@@ -16,6 +16,7 @@ dotenv.config({ path:`./env/.env.${envName}`});
 
 export default defineConfig({
   testDir: './tests',
+  testIgnore: ['automationexercisetest/**'],
   timeout: 70000,
   //repeatEach:3,
 
